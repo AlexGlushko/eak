@@ -38,7 +38,7 @@ header{
     background-color: var(--white-bg);
     border-bottom: 1px solid var(--border);
     min-height: 70px;
-    line-height: 2.2rem;
+    
     align-items: center;
 }
 .header-logo > b{
@@ -71,4 +71,29 @@ header{
 }
 .count-result{
     padding: 1rem;
+}
+.main-menu budge-success:hover{
+    background:var(--white-bg);
+    color: var(--accent);
+}
+
+.homepage-cart{
+    background-color: var(--white-bg);
+    border: 1px solid var(--border);
+    position: absolute;
+    right: 5px;
+    top: 134px;
+    width: 95px;
+    height: 90px;
+}
+
+.count-contol-box input{
+    margin: 0 3px;
+    max-width: 34px;
+    text-align: center
+}
+
+table th:nth-child(4){
+    width: 10px;
+    align-items: center; 
 }
