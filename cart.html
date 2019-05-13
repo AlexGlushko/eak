@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="style/main.css">
+  <title>EAK Sales System</title>
+</head>
+<body>
+  <!--Header START-->
+<header class="header ">
+  <div class="container  ">
+    <div class="row ">
+
+    <div class="header-logo col-md-2 ">
+      <a href="index.html"> <b>[</b>EAK<b>]</b> Sales System <sup><span class="badge badge-light">0.1.1</span></sup> </a>
+    </div>  
+
+        <!--Search form START-->
+        <div class="input-group  col-md-8 ">
+          <input type="text" class="form-control" placeholder="Номер запчасти" aria-label="Номер запчасти" aria-describedby="button-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-secondary" type="button" id="button-addon2">Поиск</button>
+          </div>
+        </div>
+        
+
+        <!--Login/Register linkns START-->
+              <div class="col-md-2 btn-group d-flex justify-content-end" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary">Вход</button>
+                <button type="button" class="btn btn-primary">Регистрация</button>
+              </div>
+            
+
+      </div> 
+  </div>
+</header>
+<!--Header END--> 
+
+<!-- Horizontal main menu  START-->
+<div class="main-menu">
+        <div class="container">
+            <div class="row d-flex ">
+              <a href="#" class="flex-fill text-center pt-2 pb-2">Заказы</a>
+              <a href="#" class="flex-fill text-center pt-2 pb-2">Резерв</a>
+              <a href="#" class="flex-fill text-center pt-2 pb-2">Отчеты</a>
+              <a href="#" class="flex-fill text-center pt-2 pb-2">Новости</a>
+              <a href="#" class="flex-fill text-center pt-2 pb-2">Настройки</a>
+              <a href="#" class="flex-fill text-center pt-2 pb-2">Контакты</a>
+            </div>
+        </div>
+      </div>
+  <!--Horizontal main menu END-->
+
+  <div class="container content">
+        <div class="row">
+        
+            <div class="count-result">
+              <p>Найдено результатов: <b>14</b> </p>
+            </div>
+        </div>    
+            <div class="content-result table-responsive-sm">
+                <table class="table table-md ">
+                    <thead >
+                      <tr class="d-flex">
+                        <th class="col-1" scope="col"></th>
+                        <th  class="col-1" scope="col-1">Артикул</th>
+                        <th  class="col-5" scope="col-1">Наименование</th>
+                        <th  class="col-1" scope="col">Бренд</th>
+                        <th class="stock-count text-center col-1" scope="col" ">Кол-во</th>
+                        <th class="text-center col-1" scope="col">Цена</th>
+                        <th  class="text-center col-2" scope="col">Сумма</th> 
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="d-flex" >
+                        <th class="col-1"><input type="checkbox" ></th>
+                        <th  class="col-1" scope="row">K951</th>
+                        <td class="col-5">Фильтр салона DAF (пр-во M-filter)</td>
+                        <td class="col-1"> <b>M-Filter</b> </td>
+                        <td class="col-1"><div class="count-contol-box" > + <input type="text" placeholder="3" value="3"> - </div> </td>
+                        <td class="text-center col-1">128.40 грн.</td>
+                        <td class="text-center col-2">385.2 грн.</td>
+                      </tr>
+                      <tr class="d-flex">
+                        <th class="col-1"><input type="checkbox" ></th>
+                        <th class="col-1" scope="row">RD892A</th>
+                        <td class="col-5">Фильтр салона DAF (TRUCK)</td>
+                        <td class="col-1">RIDER</td>
+                        <td class="col-1"><div class="count-contol-box" > + <input type="text" placeholder="1" value="1"> - </div></td>
+                        <td class="text-center col-1">110.82 грн.</td>
+                        <td class="text-center col-2">110.82 грн.</td>
+                      </tr>
+                      <tr class="d-flex">
+                            <th class="col-1"><input type="checkbox" ></th>
+                            <th class="col-1" scope="row">LA50/1</th>
+                            <td class="col-5">Фильтр салона DAF 95XF (TRUCK) (пр-во Knecht-Mahle)</td>
+                            <td class="col-1">KNECHT</td>
+                            <td class="col-1"><div class="count-contol-box" > + <input type="text" placeholder="4" value="4"> - </div></td>
+                            <td class="text-center col-1">243.60 грн.</td>
+                            <td class="text-center col-2">1218.00 грн.</td>
+                          </tr>
+                      <tr class="d-flex">
+                        <th class="col-1" scope="row"></th>
+                        <td class="col-1"></td>
+                        <td class="col-5"></td>
+                        <td class="col-1"></td>
+                        <td class="text-center col-1">8</td>
+                        <td class="text-center table-success col-1" >Итого: </td>
+                        <td class="text-center table-success col-2" >1714.02 грн.</td>
+                      </tr>
+                      <tr class="d-flex">
+                          <th class="col-1"><div class="btn btn-primary btn-sm"> Отгрузить</div></th>
+                          <th class="col-2"><div class="btn btn-danger btn-sm"> Удалить выбранные </div></th>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+            </div>
+    </div>
+    
+  
+    
+ 
+  
+  <footer></footer> 
+  
+  </body>
+  </html>

@@ -41,9 +41,12 @@ header{
     
     align-items: center;
 }
-.header-logo > b{
+.header-logo a b{
     color: var(--accent);
     font-size: 16px;
+}
+.header-logo a {
+    color: #000;
 }
 .main-menu{
     display: flex;
@@ -78,13 +81,38 @@ header{
 }
 
 .homepage-cart{
-    background-color: var(--white-bg);
+    background-color: #c44dff;
     border: 1px solid var(--border);
     position: absolute;
     right: 5px;
     top: 134px;
     width: 95px;
     height: 90px;
+    text-align: center;
+    
+}
+.homepage-cart i {
+    line-height: 90px;
+    color: #f7e6ff;
+}
+
+.homepage-cart i:hover {
+    color: var(--white-bg);
+}
+
+.count-cart {
+    position: absolute;
+    z-index: 5;
+    right: 17px;
+    top: 150px;
+    background-color: #fff;
+    border-radius: 6px;
+    width: 22px;
+    height: 19px;
+    text-align: center;
+    border: 1px solid var(--accent-hover);
+    font-size: 0.9rem;
+
 }
 
 .count-contol-box input{
@@ -93,7 +121,7 @@ header{
     text-align: center
 }
 
-table th:nth-child(4){
+table tr th:nth-child(4){
     width: 10px;
-    align-items: center; 
+    text-align: center; 
 }
